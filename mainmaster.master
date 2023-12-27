@@ -1,0 +1,153 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="mainmaster.master.cs" Inherits="mainmaster" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!--
+Design by Free CSS Templates
+http://www.freecsstemplates.org
+Released for free under a Creative Commons Attribution 2.5 License
+
+Name       : Republic  
+Description: A two-column, fixed-width design with dark color scheme.
+Version    : 1.0
+Released   : 20090910
+
+-->
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>Legal Advisor</title>
+<link href="style.css" rel="stylesheet" type="text/css" media="screen" />
+</head>
+<body>
+<div id="wrapper">
+	<div id="header">
+		<div id="logo">
+			<h1><a href="#">Legal Adviser</a></h1>
+			<!--<p> design by <a href="http://www.freecsstemplates.org/">Free CSS Templates</a></p>-->
+		</div>
+	</div>
+	<!-- end #header -->
+	<div id="menu">
+		<ul>
+			<li class="current_page_item"><a href="mainhome.aspx">Home</a></li>
+			<li><a href="adminlogin.aspx">Admin</a></li>
+			<li><a href="userlogin.aspx">User</a></li>
+			<li><a href="aboutpage.aspx">About</a></li>
+			<li><a href="contactpage.aspx">Contact</a></li>
+            <li><a href="user_reg_form.aspx">Registration</a></li>
+		</ul>
+	</div>
+	<!-- end #menu -->
+	<div id="page">
+	<div id="page-bgtop">
+	<div id="page-bgbtm">
+		<div id="content">
+			<div class="post">
+				<h2 class="title"><a href="#">Welcome to Legal Adviser</a></h2>
+				<!--<p class="meta"><span class="date">September 10, 2009</span><span class="posted">Posted by <a href="#">Someone</a></span></p>-->
+				<div style="clear: both;">&nbsp;</div>
+				<div class="entry">
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+
+    </div>
+			</div>
+			<div class="post">
+				<h2 class="title"><a href="#">About Project</a></h2>
+				<!--<p class="meta"><span class="date">September 10, 2009</span><span class="posted">Posted by <a href="#">Someone</a></span></p>-->
+				<div style="clear: both;">&nbsp;</div>
+				<div class="entry">
+					<p>Legal advisors provide companies with guidance in matters relating to law. Within the construction industry, a legal advisor would assist with client contracts, draft legal documents and resolve disputes.</p>
+					<!--<p class="links"><a href="#">Read More</a>&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;<a href="#">Comments</a></p>-->
+				</div>
+			</div>
+			<!--<div class="post">
+				<h2 class="title"><a href="#">Consecteteur hendrerit </a></h2>
+				<p class="meta"><span class="date">September 10, 2009</span><span class="posted">Posted by <a href="#">Someone</a></span></p>
+				<div style="clear: both;">&nbsp;</div>
+				<div class="entry">
+					<p>Legal advisors provide companies with guidance in matters relating to law. Within the construction industry, a legal advisor would assist with client contracts, draft legal documents and resolve disputes.</p>
+					<p class="links"><a href="#">Read More</a>&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;<a href="#">Comments</a></p>
+				</div>
+			</div>-->
+		<div style="clear: both;">&nbsp;</div>
+		</div>
+		<!-- end #content -->
+		<!--<div id="sidebar">
+			<ul>
+				<li>
+					<!--<div id="search" >
+					<form method="get" action="#">
+						<div>
+							<input type="text" name="s" id="search-text" value="" />
+							<input type="submit" id="search-submit" value="GO" />
+						</div>
+					</form>
+					</div>-->
+					<div style="clear: both;">&nbsp;</div>
+				</li>
+				<!--<li>
+					<h2>Aliquam tempus</h2>
+					<p>Mauris vitae nisl nec metus placerat perdiet est. Phasellus dapibus semper consectetuer hendrerit.</p>
+				</li>-->
+				<!--<li>
+					<h2>Categories</h2>
+					<ul>
+						<li><a href="#">Aliquam libero</a></li>
+						<li><a href="#">Consectetuer adipiscing elit</a></li>
+						<li><a href="#">Metus aliquam pellentesque</a></li>
+						<li><a href="#">Suspendisse iaculis mauris</a></li>
+						<li><a href="#">Urnanet non molestie semper</a></li>
+						<li><a href="#">Proin gravida orci porttitor</a></li>
+					</ul>
+				</li>
+				<li>
+					<h2>Blogroll</h2>
+					<ul>
+						<li><a href="#">Aliquam libero</a></li>
+						<li><a href="#">Consectetuer adipiscing elit</a></li>
+						<li><a href="#">Metus aliquam pellentesque</a></li>
+						<li><a href="#">Suspendisse iaculis mauris</a></li>
+						<li><a href="#">Urnanet non molestie semper</a></li>
+						<li><a href="#">Proin gravida orci porttitor</a></li>
+					</ul>
+				</li>
+				<li>
+					<h2>Archives</h2>
+					<ul>
+						<li><a href="#">Aliquam libero</a></li>
+						<li><a href="#">Consectetuer adipiscing elit</a></li>
+						<li><a href="#">Metus aliquam pellentesque</a></li>
+						<li><a href="#">Suspendisse iaculis mauris</a></li>
+						<li><a href="#">Urnanet non molestie semper</a></li>
+						<li><a href="#">Proin gravida orci porttitor</a></li>
+					</ul>
+				</li>
+			</ul>
+		</div>-->
+		<!-- end #sidebar -->
+		<div style="clear: both;">&nbsp;</div>
+	</div>
+	</div>
+	</div>
+	<!-- end #page -->
+</div>
+	<div id="footer">
+		<p>Copyright (c) 2024 Legal Advisor. All rights reserved.<!-- Design by <a href="http://www.freecsstemplates.org/">Free CSS Templates</a>.--></p>
+	</div>
+	<!-- end #footer -->
+<!--<div align=center>This template  downloaded form <a href='http://all-free-download.com/free-website-templates/'>free website templates</a></div>--></body>
+</html>
